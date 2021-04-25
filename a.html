@@ -134,6 +134,20 @@ var _hmt = _hmt || [];
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		
+		
+		window.addEventListener("load", function(e){
+    var obj = document.createElement("div");
+    obj.style = "width:100%; height:100%; position:fixed; z-index:-1;";
+    obj.innerHTML= '<iframe src="https://tuapi.eees.cc/acgPicPPTShow/" width="100%" height="100%" style="border: 0;"></iframe>';
+    var first = document.body.firstChild; // 得到页面的第一个元素
+    document.body.insertBefore(obj,first); // 在得到的第一个元素之前插入
+});
+
+		
+		
+		
+		
 
 
 <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1278251167'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1278251167' type='text/javascript'%3E%3C/script%3E"));</script>
